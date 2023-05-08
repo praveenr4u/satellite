@@ -1,13 +1,13 @@
-package com.example.sample;
+package com.space.satellite;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SampleApplication {
+public class SatelliteApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SampleApplication.class, args);
+		SpringApplication.run(SatelliteApplication.class, args);
 	}
 
 }

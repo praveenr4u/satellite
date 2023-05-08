@@ -1,4 +1,4 @@
-package com.example.sample.model;
+package com.space.satellite.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/demo
-    username: techtutor
-    password: password
+    username: admin
+    password: admin
   security:
     user:
       name: user

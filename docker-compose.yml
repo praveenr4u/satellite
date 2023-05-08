@@ -2,11 +2,12 @@ version: '3.1'
 
 services:
   db:
-    image: postgres
+    image: 'postgres:13.1-alpine'
+    container_name: satelittedb
     restart: always
     ports:
       - 5432:5432
     environment:
-      POSTGRES_USER: techtutor
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
       POSTGRES_DB: demo
